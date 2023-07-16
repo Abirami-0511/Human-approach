@@ -1,0 +1,31 @@
+public class pat9 {
+    public static void main(String args[]) {
+   int n=5;
+   int t=0;
+   for(int i=n;i>=1;i--)
+   {
+       for(int j=n;j>=i;j--)
+       
+           {
+           System.out.print(j+" ");
+           t=j;
+           
+           }
+       
+       for(int k=n-i+1;k<n;k++)
+      {
+          System.out.print(t+" ");
+      }
+       System.out.println();
+   }
+    }
+}
+         
+output:
+
+
+5 5 5 5 5 
+5 4 4 4 4 
+5 4 3 3 3 
+5 4 3 2 2 
+5 4 3 2 1 

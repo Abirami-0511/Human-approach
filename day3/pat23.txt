@@ -1,0 +1,32 @@
+public class pat22{
+    public static void main(String args[]) {
+     int n=5;
+     
+     int r=0;
+     int m=1;
+     int e=1;
+     for(int i=1;i<=n;i++)
+     {
+    
+         for(int j=1;j<=i;j++)
+         {
+             System.out.print(e+" ");
+             e=r+m;
+             r=m;
+             m=e;
+          
+         }
+         
+         System.out.println();
+     }
+    }
+}
+
+output:
+
+
+1 
+1 2 
+3 5 8 
+13 21 34 55 
+89 144 233 377 610 

@@ -1,0 +1,43 @@
+public class pat24 {
+    public static void main(String args[]) {
+     int n=5;
+     
+     for(int i=1;i<=n;i++)
+     {
+     int r=0;
+         int m=1;
+         int e;
+        
+         for(int j=1;j<=i;j++)
+         {
+              if(j==1)
+              {
+                  System.out.print("0 ");
+              }
+              else if(j==2)
+              {
+                  System.out.print("1 ");
+              }
+              else{
+                  e=r+m;
+             System.out.print(e+" ");
+              
+             r=m;
+             m=e;
+              }
+                } 
+
+         System.out.println();
+     }
+    }
+}
+
+
+output:
+
+
+0 
+0 1 
+0 1 1 
+0 1 1 2 
+0 1 1 2 3 

@@ -1,0 +1,43 @@
+class pat2{
+public static void main(String[]s)
+{
+int n=5;
+    
+    for(int i=1;i<=n;i++)
+    {
+       int r=5;
+        for(int j=i;j<=n;j++)
+        {
+            System.out.print(r);
+            r--;
+            
+        }
+        
+        System.out.println();
+    }
+    for(int i=1;i<=n;i++)
+    {
+        int r=5;
+        for(int j=1;j<=i;j++)
+        {
+            System.out.print(r);
+            r--;
+        }
+        System.out.println();
+    }
+    }
+}
+
+output:
+
+
+54321
+5432
+543
+54
+5
+5
+54
+543
+5432
+54321

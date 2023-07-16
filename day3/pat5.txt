@@ -1,0 +1,30 @@
+ class pat5{
+public static void main(String[]s)
+{
+int n=5;
+    
+    for(int i=0;i<=n;i++)
+    {
+       int r=i;
+        for(int j=1;j<=i;j++)
+        {
+            
+            System.out.print(r+" ");
+            r=r+n;
+           
+            
+        }
+        System.out.println();
+    }
+     
+    }
+}
+
+output
+
+
+1 
+2 7 
+3 8 13 
+4 9 14 19 
+5 10 15 20 25 
