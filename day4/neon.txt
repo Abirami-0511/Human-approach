@@ -1,0 +1,26 @@
+public class neon {
+    public static void main(String args[]) {
+ int n=;
+   int m=n;
+   int s=0;
+   int r=n*n;
+   while(r>0)
+   {
+       int l=r%10;
+       s=s+l;
+       r=r/10;
+       
+   }
+   if(s==m)
+   {
+       System.out.println("neon number");
+   }
+   else
+   {
+       System.out.println(" not neon number");
+   }
+    }
+}
+   output:
+not neon number
+
